@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVida - Consciência Ambiental</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>EcoVida</h1>
+        <p>Preservar a natureza é garantir o nosso amanhã.</p>
+        <nav>
+            <button onclick="mostrarSecao('flores')">Flores & Flora</button>
+            <button onclick="mostrarSecao('animais')">Animais & Fauna</button>
+            <button onclick="mostrarSecao('agua')">Água Viva</button>
+            <button onclick="mostrarSecao('poluicao')">Poluição & Impacto</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        
+        <section id="flores" class="conteudo-secao ativa">
+            <h2>Flores & Flora</h2>
+            <p>As plantas e flores são a base da vida na Terra. Elas purificam o ar através da fotossíntese, fornecem alimento e servem de habitat para milhares de espécies. Proteger a flora é proteger o pulmão do mundo.</p>
+            <div class="alerta-verde">💡 Curiosidade: Mais de 80% da dieta humana vem de plantas!</div>
+        </section>
+
+        <section id="animais" class="conteudo-secao">
+            <h2>Animais & Fauna</h2>
+            <p>Cada animal, do menor inseto ao maior mamífero, tem um papel fundamental no ecossistema. A extinção de uma única espécie pode desequilibrar toda uma cadeia alimentar, ameaçando a biodiversidade.</p>
+        </section>
+
+        <section id="agua" class="conteudo-secao">
+            <h2>Água Viva</h2>
+            <p>A água é o recurso mais precioso do planeta. Embora a Terra seja coberta por água, menos de 1% dela é doce e acessível para consumo. Economizar e não poluir os rios e oceanos é vital para a sobrevivência.</p>
+        </section>
+
+        <section id="poluicao" class="conteudo-secao">
+            <h2>Poluição & Impacto</h2>
+            <p class="alerta-perigo">Atenção: O descarte incorreto de plástico, os gases poluentes e o esgoto sem tratamento estão destruindo habitats naturais em ritmo acelerado.</p>
+            <p>Mudar nossos hábitos diários — como reciclar, reduzir o consumo de plástico e evitar o desperdício — é o primeiro passo para reverter esse cenário.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 EcoVida - Criado para o GitHub. Todos pela Natureza. 🌱</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
